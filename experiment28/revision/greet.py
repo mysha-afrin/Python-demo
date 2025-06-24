@@ -22,3 +22,10 @@ def display_message(message):
 display_message("I am learing python")
 
 
+#qn no-2 solved
+def fav_book(book):
+    print(f"My favorite book is {book.title()}")
+fav_book("Alice in wander land")
+
+
+
