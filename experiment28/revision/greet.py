@@ -56,5 +56,14 @@ make_shirt("S", "Coding is my life")
 
 
 
+#qn no-5 solved
+def describe_cities(city , country):
+    print(f"{city.title()} is located in {country.title()}.")
+describe_cities("Khulna", "Bangladesh")
+describe_cities("Delhi", "India")
+describe_cities(input("Enter your city : "), input("Where is it located? "))
+
+
+
 
 
