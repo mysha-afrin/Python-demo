@@ -46,3 +46,15 @@ make_shirt(input("Enter the size: "), input("What should I write on it? "))
 
 
 
+#qn no-4 solved
+def make_shirt(size, quote):
+    print(f"\nThe size of the tshirt is {size}.")
+    print(f"Write '{quote}' on it.\n")
+make_shirt("XL", "I love python.")
+make_shirt("M", "Coding is love.")
+make_shirt("S", "Coding is my life")
+
+
+
+
+
