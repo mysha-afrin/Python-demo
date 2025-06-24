@@ -28,4 +28,21 @@ def fav_book(book):
 fav_book("Alice in wander land")
 
 
+#Display multiple parametre in a function
+def fav_pet(pet_name, pet_type, my_name):
+    print(f"\nMy name is {my_name.title()}.")
+    print(f"I have a {pet_type}.")
+    print(f"My {pet_type}'s name is {pet_name.title()}.\n")
+fav_pet("ginger", "dog", "jeba")
+fav_pet("cinamon", "cat", "pial")
+
+
+
+#qn no-3 solved
+def make_shirt(size, quote):
+    print(f"\nThe size of the tshirt is {size}.")
+    print(f"Write '{quote}' on it.\n")
+make_shirt(input("Enter the size: "), input("What should I write on it? "))
+
+
 
