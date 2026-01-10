@@ -1,6 +1,3 @@
-import csv
-
-with open("student.csv", mode="r") as file:
-    csv_reader = csv.reader(file)
-    for row in csv_reader:
-        print(row)
+import pandas as pd
+data = pd.read_csv("learing_csv/student.csv")
+print(data)
